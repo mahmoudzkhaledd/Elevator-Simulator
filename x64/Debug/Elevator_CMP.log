@@ -1,0 +1,12 @@
+﻿  C_Elevator.cpp
+  Main_Elevator.cpp
+  P_Elevator.cpp
+  V_Elevator.cpp
+  Event.cpp
+  Data.cpp
+  Hospital.cpp
+E:\Projects\Elevator_CMP\Elevator_CMP\Hospital\Hospital.cpp(151,46): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  UI.cpp
+  main.cpp
+  Generating Code...
+  Elevator_CMP.vcxproj -> E:\Projects\Elevator_CMP\x64\Debug\Elevator_CMP.exe

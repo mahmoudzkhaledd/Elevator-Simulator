@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{facff1d0-3d59-4c0c-8ad0-7bacd8c0713d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\List">
+      <UniqueIdentifier>{1a432820-1d8d-4c6d-bea5-3b63ba771009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Queue">
+      <UniqueIdentifier>{e5eb3e56-9dd9-40e1-9476-83a9391fe7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Stack">
+      <UniqueIdentifier>{0240b0df-9cb2-4d57-806e-19a1b672dbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elevators">
+      <UniqueIdentifier>{a4a637ed-4586-4484-9f71-8240d7f887c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elevators\P_Elevator">
+      <UniqueIdentifier>{a22609a6-4da2-4221-b1cb-38dc165ad792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elevators\C_Elevator">
+      <UniqueIdentifier>{7a1d169f-028c-4b5e-a66c-c2142e01d00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File_Layer">
+      <UniqueIdentifier>{77e34149-1f66-4503-bc5a-e078229e5418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Passengers">
+      <UniqueIdentifier>{dd219ed6-7a28-42f0-9789-88007b7e96b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{071fde88-8b8a-4a48-a8b0-36feeacb8f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI_Layer">
+      <UniqueIdentifier>{d62fd7bc-3c52-42ef-afb5-96a46f5dcad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hospital">
+      <UniqueIdentifier>{7a7692a0-c5d0-4b37-8b71-586d10cf164c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Floors">
+      <UniqueIdentifier>{884a6c58-c9a9-49b7-bbf4-e119eee2141b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\PQueue">
+      <UniqueIdentifier>{541a306a-cbf1-4c69-a748-6771675e786a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Elevators\V_Elevator">
+      <UniqueIdentifier>{3311a6de-24e3-4375-a72a-9f577a57e998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Passengers\Cargo">
+      <UniqueIdentifier>{53a3d343-6542-4522-ab05-22b6765264df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Passengers\Visitor">
+      <UniqueIdentifier>{e22e74ef-7eb3-4345-ac35-0c2791ebe54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Passengers\Patient">
+      <UniqueIdentifier>{935becda-deb1-410b-86cf-45afdbb1679e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStructures\List\List.h">
+      <Filter>DataStructures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Queue\Queue.h">
+      <Filter>DataStructures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Stack\Stack.h">
+      <Filter>DataStructures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Node.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevators\Main_Elevator.h">
+      <Filter>Elevators</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevators\C_Elevator\C_Elevator.h">
+      <Filter>Elevators\C_Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevators\P_Elevator\P_Elevator.h">
+      <Filter>Elevators\P_Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevators\V_Elevator\V_Elevator.h">
+      <Filter>Elevators\V_Elevator</Filter>
+    </ClInclude>
+    <ClInclude Include="Passengers\Passenger.h">
+      <Filter>Passengers</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="File_Layer\Data.h">
+      <Filter>File_Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Layer\UI.h">
+      <Filter>UI_Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Hospital\Hospital.h">
+      <Filter>Hospital</Filter>
+    </ClInclude>
+    <ClInclude Include="Floors\Floor.h">
+      <Filter>Floors</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\PQueue\PQueue.h">
+      <Filter>DataStructures\PQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Passengers\Cargo\Cargo.h">
+      <Filter>Passengers\Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="Passengers\Visitor\Visitor.h">
+      <Filter>Passengers\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Passengers\Patient\Patient.h">
+      <Filter>Passengers\Patient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Elevators\Main_Elevator.cpp">
+      <Filter>Elevators</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevators\C_Elevator\C_Elevator.cpp">
+      <Filter>Elevators\C_Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevators\P_Elevator\P_Elevator.cpp">
+      <Filter>Elevators\P_Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevators\V_Elevator\V_Elevator.cpp">
+      <Filter>Elevators\V_Elevator</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="File_Layer\Data.cpp">
+      <Filter>File_Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Layer\UI.cpp">
+      <Filter>UI_Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Hospital\Hospital.cpp">
+      <Filter>Hospital</Filter>
+    </ClCompile>
+    <ClCompile Include="Floors\Floor.cpp">
+      <Filter>Floors</Filter>
+    </ClCompile>
+    <ClCompile Include="Passengers\Cargo\Cargo.cpp">
+      <Filter>Passengers\Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="Passengers\Visitor\Visitor.cpp">
+      <Filter>Passengers\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Passengers\Patient\Patient.cpp">
+      <Filter>Passengers\Patient</Filter>
+    </ClCompile>
+    <ClCompile Include="Passengers\Passenger.cpp">
+      <Filter>Passengers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data.txt" />
+    <Text Include="Data2.txt" />
+    <Text Include="output.txt" />
+  </ItemGroup>
+</Project>
